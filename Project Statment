@@ -1,0 +1,39 @@
+# Project Statement: The Wishlist Tracker System
+
+## 1. Problem Statement
+In the modern age of e-commerce, consumers face an overwhelming number of purchasing options across various platforms like Amazon, Flipkart, and Myntra. 
+This convenience often leads to financial fragmentation, a state where users lose track of what they intend to buy and how much it will cost in total. 
+We often struggle to differentiate between impulsive wants and high-priority needs, leading to budget overruns. The core problem of this project is to address
+the lack of centralized financial oversight when planning personal purchases.
+
+## 2. Proposed Solution
+The Wishlist Tracker System** is a Python-based software tool designed to bridge the gap between desire and affordability. Instead of relying on scattered 
+browser bookmarks or mental notes, the user inputs intended purchases into a unified Command Line Interface (CLI). The software acts as a digital ledger that 
+not only stores items but actively monitors the user’s financial limit, providing a clear, data-driven picture of their purchasing power.
+
+## 3. Methodology & Algorithm
+The solution relies on State-Based Data Aggregation and Threshold Logic. Every item is an object containing specific attributes (Price, Website, Priority)
+and exists in one of two states: "Pending" or "Purchased".
+
+The system employs a Budget Utilization Algorithm to analyze financial health:
+1. Aggregation: The system iterates through the database to sum the cost of all items marked 'pending'.
+2. Utilization Ratio: It calculates the percentage of the budget consumed using the formula:
+3. Threshold Triggers:
+   * Safe Zone (<80%): Normal operation.
+   * Alert Zone (>80%): Warns the user they are close to the limit.
+   * Critical Zone (>100%): Issues a warning that the wishlist exceeds available funds.
+
+## 4. Key Features
+* Lifecycle Management: A status tracking system that allows items to move from "Pending" to "Purchased" without being deleted from the history.
+* Smart Budgeting: A dedicated module that calculates remaining funds and warns against overspending in real-time.
+* Priority Filtration: A logic filter that isolates items based on user-defined urgency (High, Medium, Low), allowing users to focus on essentials first.
+* Robust Input Validation: Ensures data integrity by enforcing positive integers for prices and normalizing text to lowercase to prevent duplicate entries.
+
+## 5. Technology Stack
+* Language: Python 3.x
+* Data Structures: Nested Dictionaries (Hash Maps) for data retrieval and management.
+* Interface: Command Line Interface (CLI) for a light,resource-efficient user experience.
+
+## 6. Conclusion
+This project demonstrates that code can be used not just for calculation, but for financial help too. By organizing purchasing desires into a structured system,
+ the wishlist tracker helps users move away from impulse buying and towards planned, prioritized consumption.
