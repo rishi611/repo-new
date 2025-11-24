@@ -3,13 +3,13 @@
 ## 1. Problem Statement
 In the modern age of e-commerce, consumers face an overwhelming number of purchasing options across various platforms like Amazon, Flipkart, and Myntra. 
 This convenience often leads to financial fragmentation, a state where users lose track of what they intend to buy and how much it will cost in total. 
-We often struggle to differentiate between impulsive wants and high-priority needs, leading to budget overruns. The core problem of this project is to address
+We often struggle to differentiate between impulsive wants and high-priority needs, leading to budget overruns. The core problem of this project is to address 
 the lack of centralized financial oversight when planning personal purchases.
 
 ## 2. Proposed Solution
-The Wishlist Tracker System** is a Python-based software tool designed to bridge the gap between desire and affordability. Instead of relying on scattered 
-browser bookmarks or mental notes, the user inputs intended purchases into a unified Command Line Interface (CLI). The software acts as a digital ledger that 
-not only stores items but actively monitors the user’s financial limit, providing a clear, data-driven picture of their purchasing power.
+The Wishlist Tracker System is a Python-based software tool designed to bridge the gap between desire and affordability. Instead of relying on scattered 
+browser bookmarks or mental notes, the user inputs intended purchases into a unified Command Line Interface (CLI). The software 
+not only stores items but actively monitors the user’s financial limit, providing a clear, picture of their purchasing power.
 
 ## 3. Methodology & Algorithm
 The solution relies on State-Based Data Aggregation and Threshold Logic. Every item is an object containing specific attributes (Price, Website, Priority)
@@ -35,5 +35,4 @@ The system employs a Budget Utilization Algorithm to analyze financial health:
 * Interface: Command Line Interface (CLI) for a light,resource-efficient user experience.
 
 ## 6. Conclusion
-This project demonstrates that code can be used not just for calculation, but for financial help too. By organizing purchasing desires into a structured system,
- the wishlist tracker helps users move away from impulse buying and towards planned, prioritized consumption.
+This project demonstrates that code can be used not just for calculation, but for financial help too. By organizing purchasing desires into a structured system, the wishlist tracker helps users move away from impulse buying and towards planned, prioritized consumption.
